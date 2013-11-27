@@ -1,0 +1,40 @@
+﻿@model GroupDocsViewerDotNet.Models.GroupDocsViewerDotNetPart
+<fieldset>
+    <legend>GroupDocs Viewer for .NET fields</legend>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Url)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(model => model.Url) @Html.ValidationMessageFor(model => model.Url)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Width)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(model => model.Width, new { value="100%" }) @Html.ValidationMessageFor(model => model.Width)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Height)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(model => model.Height, new { value="600px" }) @Html.ValidationMessageFor(model => model.Height)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.DefaultFileName)
+    </div>
+    <div class="editor-field">
+        @Html.TextBoxFor(model => model.DefaultFileName) @Html.ValidationMessageFor(model => model.DefaultFileName)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.UseHttpHandlers)
+    </div>
+    <div class="editor-field">
+        @Html.CheckBoxFor(model => model.UseHttpHandlers, new { value="true" }) @Html.ValidationMessageFor(model => model.UseHttpHandlers)
+    </div>
+
+</fieldset>

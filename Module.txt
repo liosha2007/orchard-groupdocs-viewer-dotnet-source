@@ -1,10 +1,11 @@
-﻿Name: GroupDocsViewerDotNet
+﻿Name: GroupDocs Viewer .NET
 AntiForgery: enabled
-Author: The Orchard Team
-Website: http://orchardproject.net
-Version: 1.0
+Author: GroupDocs Marketplace
+Website: http://groupdocs.com
+Version: 1.0.0
 OrchardVersion: 1.0
-Description: Description for the module
+Description: GroupDocs Viewer for .NET
 Features:
     GroupDocsViewerDotNet:
-        Description: Description for feature GroupDocsViewerDotNet.
+        Description: GroupDocs Viewer for .NET
+        Category: Groupdocs
